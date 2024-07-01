@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --text-color: #FF5588;
+    --text_white: white;
+}
+
+* {
+    font-family: "Inter", sans-serif !important;
+}
+
+.container {
+    margin: 0px 170px;
+}
+
+.Portfolio {
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-section {
+    margin-right: 120px;
+    text-align: center;
+}
+
+.left-section img {
+    width: 210px;
+    height: 250px;
+    top: 224px;
+    left: 126px;
+    border-radius: 40px;
+}
+
+.profile-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+}
+
+.icon-1:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    scale: 1.6;
+}
+
+.icon-2:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    scale: 1.6;
+}
+
+.icon-3:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    scale: 1.6;
+}
+
+.icon-4:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    scale: 1.6;
+}
+
+.hire-btn {
+    background: none;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px 50px;
+    border: 1px solid #333333;
+}
+
+.hire-btn:hover {
+    background-color: var(--text-color);
+    color: var(--text_white);
+    border: none;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.right-section .hello-text {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.right-section h1 {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+
+.right-section p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience .card {
+    text-align: center;
+}
+
+.experience .card h1 {
+    color: var(--text-color);
+    font-size: 44px;
+    font-weight: 400;
+}
+
+
+.experience .card span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.05px;
+    color: #333333;
+}
+
+.about-section {
+    margin-top: 100px;
+}
+
+.about-section span {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.06px;
+}
+
+.about-section h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+
+.about-section p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333333;
+}
+
+.education-section {
+    margin-top: 100px;
+}
+
+.education-section .career {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.06px;
+}
+
+.education-section h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+.education-section span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #333333;
+}
+
+
+.education-section h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22.8px;
+    color: #181818;
+}
+
+.service-section {
+    margin-top: 100px;
+}
+
+.service-section .service {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.06px;
+}
+
+.service-section h1 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #181818;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.service-card-1 {
+    border: 1px solid var(--text-color);
+    text-align: center;
+    background: none;
+    border-radius: 15px;
+    padding: 10px 50px;
+}
+
+.service-card-1 h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #181818;
+}
+
+.service-card-1 span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #333333;
+}
+
+.service-card-2 {
+    border: 1px solid #333333;
+    text-align: center;
+    background: none;
+    border-radius: 15px;
+    padding: 10px 50px;
+}
+
+.service-card-2 h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #181818;
+}
+
+.service-card-2 span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #333333;
+}
+
+.service-card-3 {
+    border: 1px solid #333333;
+    text-align: center;
+    background: none;
+    border-radius: 15px;
+    padding: 10px 50px;
+}
+
+.service-card-3 h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #181818;
+}
+
+.service-card-3 span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #333333;
+}
+
+.skills-section {
+    margin-top: 100px;
+}
+
+
+.skills-section span {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.06px;
+}
+
+
+.skills-section h1 {
+    color: #181818;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+
+
+.skill-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+
+.Portfolio-section {
+    margin-top: 100px;
+}
+
+.Portfolio-section span {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.06px;
+}
+
+.Portfolio-section h1 {
+    color: #181818;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.testimonial {
+    margin-top: 100px;
+}
+
+.testimonial h4 {
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 33.06px;
+}
+
+.testimonial h1 {
+    color: #181818;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.testimonial-card {
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.testimonial-card p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    color: #181818;
+}
+
+.testimonial-user-details {
+    display: flex;
+    align-items: center;
+}
+
+.user-details {
+    margin-left: 25px;
+}
+
+.user-details h3 {
+    color: #181818;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.user-details span {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.brands-section {
+    margin-top: 100px;
+}
+
+.brands-section span {
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 33.06px;
+}
+
+
+.brands-section h1 {
+    color: #181818;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.form-section {
+    margin-top: 100px;
+}
+
+.form-section span {
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 33.06px;
+}
+
+.form-div {
+    margin-top: 25px;
+}
+
+.form-div label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid;
+    width: 70%;
+    margin: 30px 0px 30px 0px;
+
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.hire-btn-2 {
+    background: none;
+    width: 190px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    border: 1px solid #333333;
+}
+
+.hire-btn-2:hover {
+    background-color: var(--text-color);
+    color: var(--text_white);
+    border: none;
+    cursor: pointer;
+    scale: 1.1;
+}
